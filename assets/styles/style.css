@@ -208,7 +208,8 @@ main section.location .location-list li:before {
   margin-right: 15px;
   font-size: 1.3rem;
 }
-main section.location .location-map img {
+main section.location .location-map img,
+main section.location .location-map picture {
   height: 300px;
   border-radius: 10px;
   display: flex;
@@ -300,7 +301,8 @@ footer .copyright {
   }
   main section.hero .hero-content,
   main section.services .services-container,
-  main section.differentials .differentials-container {
+  main section.differentials .differentials-container,
+  main section.location .location-container {
     grid-template-columns: 1fr;
   }
   main section.hero .hero-container,
